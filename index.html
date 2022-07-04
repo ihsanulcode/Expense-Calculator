@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <div class="container-sm container-lg container-xm container-xl">
+    <div class="container">
         <!-- Title -->
-        <div class="row pt-3 pb-3">
+        <div class="row pt-5 pb-3">
             <div class="col-sm-12 col-xs-12 col-lg-12">
                 <h2 class="text-center">Expense Calculator</h2>
             </div>
@@ -27,13 +27,13 @@
 
             <!-- Right column -->
             <div class="col-sm-12 col-xs-12 col-lg-6 border">
-                <div class="p-5">
+                <div class="container p-5">
                     <!-- Income section -->
-                    <div class="income-section pb-3">
-                        <div class="row col-12">
-                            <h4 class="text-center">Income</h4>
+                    <div class="income-section pb-2">
+                        <div class="row col-12 pb-3">
+                            <h5 class="text-center">Income</h5>
                         </div>
-                        <div class="row justify-content-center p-2">
+                        <div class="row justify-content-center pb-3">
                             <label class="col-sm-4 col-xs-4 col-lg-2 col-form-label">Income:</label>
                             <div class="col-sm-6 col-xs-6 col-lg-6">
                                 <input type="text" class="form-control" id="income">
@@ -44,24 +44,24 @@
 
                     <!-- Expenses section -->
                     <div class="expenses-section pb-3">
-                        <div class="row col-12 p-2">
-                            <h4 class="text-center">Expenses</h4>
+                        <div class="row col-12 pb-3">
+                            <h5 class="text-center">Expenses</h5>
                         </div>
-                        <div class="row justify-content-center p-2">
+                        <div class="row justify-content-center">
                             <label class="col-sm-4 col-xs-4 col-lg-2 col-form-label">Food:</label>
                             <div class="col-sm-6 col-xs-6 col-lg-6">
                                 <input type="text" class="form-control" id="food-cost">
                             </div>
                             <p class="text-center" id="foodwarning"></p>
                         </div>
-                        <div class="row justify-content-center p-2">
+                        <div class="row justify-content-center">
                             <label class="col-sm-4 col-xs-4 col-lg-2 col-form-label">Rent:</label>
                             <div class="col-sm-6 col-xs-6 col-lg-6">
                                 <input type="text" class="form-control" id="rent-cost">
                             </div>
                             <p class="text-center" id="rentwarning"></p>
                         </div>
-                        <div class="row justify-content-center p-2">
+                        <div class="row justify-content-center">
                             <label class="col-sm-4 col-xs-4 col-lg-2 col-form-label">Clothes:</label>
                             <div class="col-sm-6 col-xs-6 col-lg-6">
                                 <input type="text" class="form-control" id="clothes-cost">
@@ -78,8 +78,8 @@
 
                     <!-- Summary Section -->
                     <div class="summary-section pb-3 text-center">
-                        <h4>Total Exprenses: <span id="total-expense">00.00</span></h4>
-                        <h4>Balance: <span id="balance">00.00</span></h4>
+                        <h5>Total Exprenses: <span id="total-expense">00.00</span></h5>
+                        <h5>Balance: <span id="balance">00.00</span></h5>
                     </div>
 
                     <!-- Saving section -->
@@ -94,8 +94,8 @@
                         </div>
                         <p class="text-center" id="savingswarning"></p>
                         <div class="pt-3 pb-3 text-center">
-                            <h4>Saving Amount: <span id="saveAmountText">00.00</span></h4>
-                            <h4>Remaining Balance: <span id="remainingBalanceText">00.00</span></h4>
+                            <h5>Saving Amount: <span id="saveAmountText">00.00</span></h5>
+                            <h5>Remaining Balance: <span id="remainingBalanceText">00.00</span></h5>
                         </div>
                     </div>
                 </div>
@@ -103,9 +103,9 @@
             </div>
         </div>
         <!-- footer text -->
-        <div class="row p-3">
-            <div class="col-sm-12 col-xs-12 col-lg-12">
-                <p class="text-center">Developed by <b>Dataque Technologies</b> </p>
+        <div class="row pt-3 pb-3">
+            <div class="col-12">
+                <div class="text-center">Developed by <b>Dataque Technologies</b></div>
             </div>
         </div>
     </div>
